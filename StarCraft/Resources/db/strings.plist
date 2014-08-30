@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<dict>
+		<key>attackadd</key>
+		<string>攻击值: %d+%d</string>
+		<key>btn_acc</key>
+		<string>加速升级</string>
+		<key>btn_collect</key>
+		<string>收集</string>
+		<key>btn_enter</key>
+		<string>进入</string>
+		<key>btn_herocfg</key>
+		<string>英雄配置</string>
+		<key>btn_herorecruit</key>
+		<string>英雄招募</string>
+		<key>btn_info</key>
+		<string>信息</string>
+		<key>btn_recurit</key>
+		<string>招募</string>
+		<key>btn_rotaterow</key>
+		<string>旋转</string>
+		<key>btn_selectrow</key>
+		<string>整行</string>
+		<key>btn_upgrade</key>
+		<string>升级</string>
+		<key>btn_upgradecancle</key>
+		<string>取消升级</string>
+		<key>des</key>
+		<string>%s(等级%d)</string>
+		<key>have</key>
+		<string>已拥有：</string>
+		<key>hp</key>
+		<string>生命值: %d/%d</string>
+		<key>hpadd</key>
+		<string>生命值: %d+%d</string>
+		<key>lable_buildnum</key>
+		<string>已建造:</string>
+		<key>lable_buildtime</key>
+		<string>建造时间:</string>
+		<key>levelcanmake</key>
+		<string>主本%d级可以制造</string>
+		<key>population</key>
+		<string>人口:%d/%d</string>
+		<key>populationadd</key>
+		<string>人口:%d+%d</string>
+		<key>recruit_name</key>
+		<string>士兵1</string>
+		<key>recruit_name2</key>
+		<string>士兵2</string>
+		<key>soldierlabel</key>
+		<string>%s Lv.%d =&gt; Lv.%d</string>
+		<key>storage</key>
+		<string>最大容量: %d/%d</string>
+		<key>storageadd</key>
+		<string>最大容量: %d+%d</string>
+		<key>testlabel</key>
+		<string>测试文本测试文本</string>
+		<key>text_decorate</key>
+		<string>设施陷阱</string>
+		<key>text_def</key>
+		<string>防御建筑</string>
+		<key>text_fundation</key>
+		<string>基础建筑</string>
+		<key>text_resource</key>
+		<string>资源建筑</string>
+		<key>traintime</key>
+		<string>训练时间: %dS</string>
+		<key>upgrade</key>
+		<string>要升至%d级?</string>
+		<key>upgradetime</key>
+		<string>升级时间:%d秒</string>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Building">
+      <UniqueIdentifier>{0e0156cc-2107-4c14-b339-cb51207377f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Astar">
+      <UniqueIdentifier>{c3d0c425-c1b3-45da-a94a-3f77a0b0dcac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battle">
+      <UniqueIdentifier>{9b9178c7-883e-40fa-86d1-0706960b1b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{e673c5d1-44f7-4d73-b532-92776d1482d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libUI">
+      <UniqueIdentifier>{909b00cb-3ff4-492c-8652-13c5fc2c6cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Repository">
+      <UniqueIdentifier>{a98c39da-90de-4b81-ac5e-0c3c064a3fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLite3DB">
+      <UniqueIdentifier>{a1ce528c-c913-4a3d-b304-254b20117923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{4ccb15d9-2247-4c87-98cd-1c0257d6f11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Building\base">
+      <UniqueIdentifier>{7416f84f-603e-4fad-a2b4-b0eedb729bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Building\Logic">
+      <UniqueIdentifier>{90cbc280-bbd9-4617-ba7f-a2977cebb89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Building\tower">
+      <UniqueIdentifier>{cdae1045-f42a-4d97-9278-75e28dd434ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Building\UI">
+      <UniqueIdentifier>{23ab7b4c-3b50-42df-9c16-05f7e614e8cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Building\wall">
+      <UniqueIdentifier>{f76b2409-84ab-4454-8846-b794ba1e1ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battle\Logic">
+      <UniqueIdentifier>{3abe15f1-9c61-4cd6-b69a-fb211ad1e7c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battle\Soldier">
+      <UniqueIdentifier>{20f78110-8b73-46f1-8424-a16cb7f850d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battle\UI">
+      <UniqueIdentifier>{dd2637c9-6320-4883-a017-1f8f27127171}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AStar\AStar.cpp">
+      <Filter>Astar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utility\MapHelper.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Utility\SqliteHelper.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SQLite3DB\SQLite3unit.cpp">
+      <Filter>SQLite3DB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Repository\BarrackData.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Repository\BuildingConfig.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Repository\BuildingData.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Repository\HeroConfig.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Repository\SoldierConfig.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Repository\SoldierData.cpp">
+      <Filter>Repository</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\CustomTableViewCell.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIBuyBuildingLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIConveyorLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIGraySprite.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIHeroConfiguration.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIHeroPub.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIMsgLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIPanZoomLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIPopupLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIRadioButton.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIRecruitHeroHerdLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIRecruitLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UISoldierHeadLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UITipLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UITouchButton.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIUserInfoLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIUserLayer.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\libUI\UIUserMinUi.cpp">
+      <Filter>libUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIBarracks.cpp">
+      <Filter>Building\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIBuildingBase.cpp">
+      <Filter>Building\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UICollector.cpp">
+      <Filter>Building\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UICommon.cpp">
+      <Filter>Building\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIContainer.cpp">
+      <Filter>Building\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UISoldierCreator.cpp">
+      <Filter>Building\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\BuildingCommon.cpp">
+      <Filter>Building\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\BuildingFunc.cpp">
+      <Filter>Building\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\BuildingObserver.cpp">
+      <Filter>Building\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIBuildingFactory.cpp">
+      <Filter>Building\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIBuildingPopLayer.cpp">
+      <Filter>Building\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIButtonFactory.cpp">
+      <Filter>Building\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIPlaceBuildingLayer.cpp">
+      <Filter>Building\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIPopLayerFactory.cpp">
+      <Filter>Building\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIStone.cpp">
+      <Filter>Building\wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIWall.cpp">
+      <Filter>Building\wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIBlockingTower.cpp">
+      <Filter>Building\tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIBunkers.cpp">
+      <Filter>Building\tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UILaserCannon.cpp">
+      <Filter>Building\tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UILightingTower.cpp">
+      <Filter>Building\tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIMortar.cpp">
+      <Filter>Building\tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIMulrocket.cpp">
+      <Filter>Building\tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIPiercingCannon.cpp">
+      <Filter>Building\tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UISatelliteTower.cpp">
+      <Filter>Building\tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\CampTableViewCell.cpp">
+      <Filter>Building\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\LHSTestScene.cpp">
+      <Filter>Building\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIInfoDialog.cpp">
+      <Filter>Building\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIResearchDialog.cpp">
+      <Filter>Building\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UISoldierItem.cpp">
+      <Filter>Building\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Building\UIUpgradeDialog.cpp">
+      <Filter>Building\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleData.cpp">
+      <Filter>Battle\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleLogic.cpp">
+      <Filter>Battle\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\BattleScene.cpp">
+      <Filter>Battle\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\AirSoldier.cpp">
+      <Filter>Battle\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\HumanSoldier.cpp">
+      <Filter>Battle\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\MachineSoldier.cpp">
+      <Filter>Battle\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\Soldier.cpp">
+      <Filter>Battle\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Battle\SoldierFactory.cpp">
+      <Filter>Battle\Soldier</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AStar\AStar.h">
+      <Filter>Astar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utility\MapHelper.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Utility\SqliteHelper.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SQLite3DB\SQLite3unit.h">
+      <Filter>SQLite3DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Repository\BarrackData.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Repository\BuildingConfig.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Repository\BuildingData.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Repository\HeroConfig.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Repository\SoldierConfig.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Repository\SoldierData.h">
+      <Filter>Repository</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\CustomTableViewCell.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIBuyBuildingLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIConveyorLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIGraySprite.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIHeroConfiguration.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIHeroPub.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIMsgLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIPanZoomLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIPopupLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIRadioButton.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIRecruitHeroHerdLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIRecruitLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UISoldierHeadLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UITipLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UITouchButton.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIUserInfoLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIUserLayer.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\libUI\UIUserMinUi.h">
+      <Filter>libUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\AppMacros.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GameString.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIBarracks.h">
+      <Filter>Building\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIBuildingBase.h">
+      <Filter>Building\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UICollector.h">
+      <Filter>Building\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UICommon.h">
+      <Filter>Building\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIContainer.h">
+      <Filter>Building\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UISoldierCreator.h">
+      <Filter>Building\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\BuildingCommon.h">
+      <Filter>Building\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\BuildingFunc.h">
+      <Filter>Building\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\BuildingObserver.h">
+      <Filter>Building\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIBuildingFactory.h">
+      <Filter>Building\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIBuildingPopLayer.h">
+      <Filter>Building\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIButtonFactory.h">
+      <Filter>Building\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIPlaceBuildingLayer.h">
+      <Filter>Building\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIPopLayerFactory.h">
+      <Filter>Building\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIStone.h">
+      <Filter>Building\wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIWall.h">
+      <Filter>Building\wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIBlockingTower.h">
+      <Filter>Building\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIBunkers.h">
+      <Filter>Building\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UILaserCannon.h">
+      <Filter>Building\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIMortar.h">
+      <Filter>Building\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UILightingTower.h">
+      <Filter>Building\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIMulrocket.h">
+      <Filter>Building\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIPiercingCannon.h">
+      <Filter>Building\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UISatelliteTower.h">
+      <Filter>Building\tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\CampTableViewCell.h">
+      <Filter>Building\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\LHSTestScene.h">
+      <Filter>Building\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIInfoDialog.h">
+      <Filter>Building\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIResearchDialog.h">
+      <Filter>Building\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UISoldierItem.h">
+      <Filter>Building\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Building\UIUpgradeDialog.h">
+      <Filter>Building\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleData.h">
+      <Filter>Battle\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleLogic.h">
+      <Filter>Battle\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\BattleScene.h">
+      <Filter>Battle\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\AirSoldier.h">
+      <Filter>Battle\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\HumanSoldier.h">
+      <Filter>Battle\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\MachineSoldier.h">
+      <Filter>Battle\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\Soldier.h">
+      <Filter>Battle\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Battle\SoldierFactory.h">
+      <Filter>Battle\Soldier</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

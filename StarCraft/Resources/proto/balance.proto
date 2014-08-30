@@ -1,0 +1,10 @@
+package balance;
+
+message BalanceReq {
+  required int32 chanel = 1;
+}
+
+message BalanceRes {
+  required string ip = 1;
+  required int32 port = 2;
+}
