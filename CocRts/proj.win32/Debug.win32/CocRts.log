@@ -1,0 +1,81 @@
+﻿生成启动时间为 2014/9/18 14:14:28。
+     1>项目“D:\MYGAME\trunk\CocRts\proj.win32\CocRts.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\MYGAME\trunk\CocRts\cocos2d\cocos\2d\..\..\cocos\audio\include /ID:\MYGAME\trunk\CocRts\cocos2d\cocos\2d\..\..\external /ID:\MYGAME\trunk\CocRts\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /ID:\MYGAME\trunk\CocRts\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /ID:\MYGAME\trunk\CocRts\cocos2d\cocos\2d\..\..\cocos /ID:\MYGAME\trunk\CocRts\cocos2d\cocos\2d\..\..\cocos\platform\win32 /ID:\MYGAME\trunk\CocRts\cocos2d\cocos\2d\..\..\cocos\platform\desktop /ID:\MYGAME\trunk\CocRts\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"D:\MYGAME\trunk\CocRts\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\HelloWorldScene.cpp main.cpp
+         AppDelegate.cpp
+         HelloWorldScene.cpp
+         main.cpp
+     1>d:\mygame\trunk\cocrts\classes\helloworldscene.cpp(57): warning C4996: 'cocos2d::LabelTTF::create': 被声明为已否决
+                 d:\mygame\trunk\cocrts\cocos2d\cocos\2d\cclabelttf.h(75) : 参见“cocos2d::LabelTTF::create”的声明
+     1>d:\mygame\trunk\cocrts\classes\helloworldscene.cpp(61): warning C4996: 'cocos2d::LabelTTF::getContentSize': 被声明为已否决
+                 d:\mygame\trunk\cocrts\cocos2d\cocos\2d\cclabelttf.h(154) : 参见“cocos2d::LabelTTF::getContentSize”的声明
+                 d:\mygame\trunk\cocrts\cocos2d\cocos\2d\cclabelttf.h(154) : 参见“cocos2d::LabelTTF::getContentSize”的声明
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug.win32\game.res" game.rc 
+       PreLinkEvent:
+         if not exist "D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\" mkdir "D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\MYGAME\trunk\CocRts\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\CocRts.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\ /LIBPATH:D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\CocRts.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\CocRts.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\libcocos2d.lib
+         D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\libAudio.lib
+         D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\libchipmunk.lib
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 默认库“libcmt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 默认库“libcmtd.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 默认库“msvcrt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>libjpeg.lib(jcapimin.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcapistd.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcarith.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcparam.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdatadst.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcinit.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmaster.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmarker.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcmainct.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcprepct.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jccoefct.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jccolor.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcsample.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jchuff.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcdctmgr.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctfst.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctflt.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jfdctint.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdapimin.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdapistd.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdarith.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdatasrc.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmaster.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdinput.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmarker.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdhuff.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmainct.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdcoefct.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdpostct.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jddctmgr.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctfst.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctflt.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jidctint.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdsample.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdcolor.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jquant1.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jquant2.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jdmerge.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jaricom.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jcomapi.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jutils.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jerror.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jmemmgr.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>libjpeg.lib(jmemnobs.obj) : warning LNK4204: “D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\vc110.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+         CocRts.vcxproj -> D:\MYGAME\trunk\CocRts\proj.win32\Debug.win32\CocRts.exe
+     1>已完成生成项目“D:\MYGAME\trunk\CocRts\proj.win32\CocRts.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.40
