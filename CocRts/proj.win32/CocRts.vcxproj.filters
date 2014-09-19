@@ -10,6 +10,15 @@
     <Filter Include="resource">
       <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Building">
+      <UniqueIdentifier>{73404f06-56d5-49ea-9ee5-8ab11d9e5908}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{615b34d6-3cdc-49e5-8ce6-d87d5992538c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Soldiers">
+      <UniqueIdentifier>{e6a19fc1-d189-4a4e-afd4-442c02390fcb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
